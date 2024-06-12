@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+p {
+	color: black;
+	font-family: Costantia, Gotham, 'Helvetica Neue', Helvetica, Arial, 'sans-serif'"Dejavu Serif", Georgia, "serif";
+	font-size: 16px; 
+	line-height: 18px;
+	width: 600px;
+	background-color: lightgreen;
+	padding: 20px;
+}
+
+ @font-face {
+	font-family: 'SaraBradaric33';
+	src: url("font/SaraBradaric33.ttf");
+}
+
+h1, h2{
+	font-family: 'SaraBradaric33';
+	color: darkgreen;
+	padding: 10px;
+	line-height: 18px;
+	width: 600px;
+	background-color: greenyellow;
+	padding: 30px;
+}
+span {color:rgb(255, 0, 255);}
+.pozadina{
+	background-image: url("slike/artur-luczka-loAfOVk1eNc-unsplash.jpg");
+}
+a:link {
+	color: black;
+}
+a:hover {
+	background-color: darkgrey;
+}
